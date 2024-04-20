@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body{
+    background-color: #eff3ff;
+}
+
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+#card{
+    position: relative;
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 50px 65px rgba(8, 214, 70, 0.911);
+    border-radius: 10px;
+}
+#card img{
+    width: 180px;
+    padding: 30px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+.hp{
+    width: 80px;
+    background-color: #461616;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+.poke-name{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+  }
+  .hp span,
+  .types span {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+  }
+  .types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .stats p {
+    color: #404060;
+    font-size: 12px;
+  }
+  #btn{
+    display: block;
+    padding: 15px 60px;
+    font-size: 20px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+  }
+  #btn:hover{
+    text-shadow: aqua;
+    border: #3111e9 solid 3px;
+    opacity:1;
+    zoom: 90%;
+  }
